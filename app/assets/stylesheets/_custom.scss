@@ -129,6 +129,11 @@ a.md-button.md-warn.md-raised, a.md-button.md-warn.md-fab, .md-button.md-warn.md
   color: white;
 }
 
+
+.md-button.md-fab.md-fab-bottom-right {
+  position: fixed;
+}
+
 md-radio-button.md-accent.md-checked .md-label span {
   color: $accent-color;
 }
@@ -180,8 +185,18 @@ md-backdrop.md-sidenav-backdrop {
   border-right-style: groove;
 }
 
+md-content {
+  background: url('../assets/images/bg-selfserve.jpg');
+  background-size: cover;
+}
+
 md-toolbar .md-menu {
   margin: 0 !important;
+}
+
+md-toolbar {
+  background: url('../assets/images/titlebar.jpg');
+  background-size: cover;
 }
 // Sidenav styles
 .sidenav-header {
@@ -465,6 +480,24 @@ md-toolbar .md-menu {
   border: 2px solid white;
 }
 
+.profile-image {
+  height: 300px;
+}
+
+.profile-input-icons {
+  color: #1e88e5;
+}
+
+.profile-card {
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+.profile-details-card {
+  padding-right: 30px;
+  padding-left: 30px
+}
+
 .text-center {
   text-align: center;
 }
@@ -690,4 +723,3 @@ md-toolbar .md-menu {
 .md-button.md-fab.md-fab-bottom-right {
   position: fixed;
 }
-

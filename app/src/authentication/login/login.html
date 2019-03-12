@@ -2,9 +2,7 @@
     <div layout="col" layout-align="start center" class="cover" flex-gt-md="70" hide-xs hide-sm>
         <div flex="60" class="cover-content">
             <h1 class="md-display-2 cover-title">Self Service</h1>
-            <p class="md-headline">Self Service is designed by the Mifos Initiative - a global community that aims to
-                speed-up the elimination of poverty by enabling organizations to more effectively and efficiently
-                deliver responsible financial services to the world’s poor and unbanked.</p>
+            <p class="md-headline">Self Service is designed by ElifeDFM</p>
         </div>
     </div>
     <div class="login-container" flex flex-gt-md="30">
@@ -29,9 +27,10 @@
                 <section layout="column" layout-align="start">
                     <md-button type="submit" class="md-primary md-raised">{{ 'login.btn.login' | translate }}
                     </md-button>
-                    <md-button class="md-default" ui-sref="forgot">{{ 'login.btn.forgot' | translate }}</md-button>
-                    <md-button class="md-primary" ui-sref="register">{{ 'login.btn.register' | translate }}</md-button>
-
+                    <!--<md-button class="md-default" ui-sref="forgot">{{ 'login.btn.forgot' | translate }}</md-button>-->
+                    <!--<md-button class="md-primary" ui-sref="register">{{ 'login.btn.register' | translate }}</md-button>-->
+                    <md-button class="md-primary" ng-href="https://goo.gl/forms/2cr7DkQJwvxlDeso1" target="_blank" ui-sref="register">Register</md-button>
+                    <span>For any assistance, email <a href="mailto: ao@elifewealth.com"> Admin</a></span>
                 </section>
             </form>
         </div>
