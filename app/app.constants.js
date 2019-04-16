@@ -3,7 +3,7 @@
 
   angular.module('selfService')
 
-	.constant("BASE_URL", "https://100lor23.club/fineract-provider/api/v1")
+	.constant("BASE_URL", "https://elifewealth.com/fineract-provider/api/v1")
 
 	.constant('AUTH_EVENTS', {
 		updateUser: 'update-user',
