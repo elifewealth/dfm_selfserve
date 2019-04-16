@@ -235,6 +235,15 @@
                         title: 'Register User'
                     }
                 })
+                .state('register2', {
+                    url: '/register2',
+                    templateUrl: 'src/authentication/register/register2.html',
+                    controller: 'Register2Ctrl',
+                    controllerAs: 'vm',
+                    data: {
+                        title: 'Register User 2'
+                    }
+                })
                 .state('verify', {
                     url: '/verify',
                     templateUrl: 'src/authentication/register/verification/verification.html',
