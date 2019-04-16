@@ -1,0 +1,6 @@
+#!/bin/bash
+
+gulp build
+mv dist ROOT
+sudo rm -r /usr/share/tomcat7/webapps/ROOT
+sudo mv ROOT /usr/share/tomcat7/webapps
