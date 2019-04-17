@@ -38,6 +38,26 @@
                         </div>
                     </md-input-container>
                 </div>
+                <div layout="row">
+                    <md-input-container flex class="md-block" md-no-float>
+                        <input name="active" ng-model="vm.form.active" placeholder="true"
+                               required>
+                        <div ng-messages="registerForm.username.$error" role="alert">
+                            <div ng-message="required">
+                                <span>Active? field is required</span>
+                            </div>
+                        </div>
+                    </md-input-container>
+                    <md-input-container flex class="md-block" md-no-float>
+                        <input name="activationDate" ng-model="vm.form.activationDate" placeholder="dd MMMM yyyy"
+                               required>
+                        <div ng-messages="registerForm.username.$error" role="alert">
+                            <div ng-message="required">
+                                <span>Activation Date field is required</span>
+                            </div>
+                        </div>
+                    </md-input-container>
+                </div>
 
                 <md-button type="submit" class="md-raised md-accent submit-button" aria-label="CREATE MY ACCOUNT"
                            ng-disabled="registerForm.$invalid || registerForm.$pristine">
