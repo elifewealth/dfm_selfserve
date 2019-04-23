@@ -245,12 +245,12 @@
                     }
                 })
                 .state('register3', {
-                    url: '/register3',
-                    templateUrl: 'src/authentication/register/register3.html',
-                    controller: 'Register3Ctrl',
+                    url: '/register1',
+                    templateUrl: 'src/authentication/register/register1.html',
+                    controller: 'Register1Ctrl',
                     controllerAs: 'vm',
                     data: {
-                        title: 'Register User 3'
+                        title: 'Register User Part 1'
                     }
                 })
                 .state('register4', {
