@@ -13,17 +13,9 @@
         var vm = this;
         vm.clearForm = clearForm;
 
-        vm.form={
-            "authenticationMode" :"email"
-        };
-
-
         function clearForm() {
             $scope.form.$setPristine();
             $scope.form.$setUntouched();
-            vm.form = {
-                "authenticationMode" :"email"
-            };
 
         }
 
