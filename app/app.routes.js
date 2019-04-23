@@ -253,15 +253,6 @@
                         title: 'Register User Part 1'
                     }
                 })
-                .state('register4', {
-                    url: '/register4',
-                    templateUrl: 'src/authentication/register/register4.html',
-                    controller: 'Register4Ctrl',
-                    controllerAs: 'vm',
-                    data: {
-                        title: 'Register User 3'
-                    }
-                })
                 .state('verify', {
                     url: '/verify',
                     templateUrl: 'src/authentication/register/verification/verification.html',
