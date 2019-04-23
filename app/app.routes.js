@@ -244,7 +244,7 @@
                         title: 'Register User 2'
                     }
                 })
-                .state('register3', {
+                .state('register1', {
                     url: '/register1',
                     templateUrl: 'src/authentication/register/register1.html',
                     controller: 'Register1Ctrl',
