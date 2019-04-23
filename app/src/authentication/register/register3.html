@@ -61,7 +61,7 @@
 
                 <div layout="row">
                     <md-input-container flex class="md-block" md-no-float>
-                        <input name="locale" ng-model="vm.form.active" placeholder="en"
+                        <input name="locale" ng-model="vm.form.locale" placeholder="en"
                                required>
                         <div ng-messages="registerForm.username.$error" role="alert">
                             <div ng-message="required">
@@ -70,7 +70,7 @@
                         </div>
                     </md-input-container>
                     <md-input-container flex class="md-block" md-no-float>
-                        <input name="dateFormat" ng-model="vm.form.activationDate" placeholder="dd MMMM yyyy"
+                        <input name="dateFormat" ng-model="vm.form.dateFormat" placeholder="dd MMMM yyyy"
                                required>
                         <div ng-messages="registerForm.username.$error" role="alert">
                             <div ng-message="required">
