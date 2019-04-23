@@ -2,7 +2,7 @@
     'use strict';
 
     angular.module('selfService')
-        .controller('Register3Ctrl', ['$scope', '$state', '$mdToast', 'AuthService', '$location',  Register2Ctrl]);
+        .controller('Register3Ctrl', ['$scope', '$state', '$mdToast', 'AuthService', '$location',  Register3Ctrl]);
 
     /**
      * @module RegisterCtrl
