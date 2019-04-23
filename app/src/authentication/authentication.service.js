@@ -74,9 +74,15 @@
         this.register3 = function(data) {
             return $http.post(BASE_URL + '/clients',data);
         }
+        this.register4 = function(data) {
+            return $http.post(BASE_URL + '/clients',data);
+        }
 
         this.verifyUser = function(data){
             return $http.post(BASE_URL + '/self/registration/user',data);
+        }
+        this.verifyUser = function(data){
+            return $http.post(BASE_URL + '/self/registration2/user',data);
         }
 
     }
