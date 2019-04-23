@@ -58,7 +58,7 @@
                             </div>
                         </div>
                         -->
-                        <md-datepicker ng-model="vm.form.activationDate" md-placeholder="Activation Date" md-hide-icons="calendar" md-open-on-focus required>
+                        <md-datepicker ng-model="vm.form.activationDate | DateFormat" md-placeholder="Activation Date" md-hide-icons="calendar" md-open-on-focus required>
                         </md-datepicker>
                         <div ng-messages="registerForm.username.$error" role="alert">
                             <div ng-message="required">
