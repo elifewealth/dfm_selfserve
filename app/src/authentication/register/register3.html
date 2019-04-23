@@ -49,7 +49,7 @@
                         </div>
                     </md-input-container>
                     <md-input-container flex class="md-block" md-no-float>
-                        <input name="activationDate" ng-model="vm.form.activationDate" placeholder="dd MMMM yyyy"
+                        <input name="activationDate" ng-model="vm.form.activationDate | DateFormat" placeholder="dd MMMM yyyy"
                                required>
                         <div ng-messages="registerForm.username.$error" role="alert">
                             <div ng-message="required">
