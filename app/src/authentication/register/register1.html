@@ -48,6 +48,15 @@
                             </div>
                         </div>
                     </md-input-container>
+                    <md-input-container flex class="md-block" md-no-float>
+                        <input name="activationDate" ng-model="vm.form.activationDate" placeholder="false"
+                               required>
+                        <div ng-messages="registerForm.activationDate.$error" role="alert">
+                            <div ng-message="required">
+                                <span>Activation Date is required</span>
+                            </div>
+                        </div>
+                    </md-input-container>
                 </div>
 
                 <md-button type="submit" class="md-raised md-accent submit-button" aria-label="CREATE MY ACCOUNT"
