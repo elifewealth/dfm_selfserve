@@ -19,7 +19,7 @@
         }
 
         $scope.submit = function() {
-            AuthService.register(vm.form).then(function () {
+            AuthService.register1(vm.form).then(function () {
                 $mdToast.show(
                     $mdToast.simple()
                         .textContent('Confirmation email is sent')              // The success part is not working as the response
