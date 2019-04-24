@@ -20,7 +20,7 @@
 
                 <div layout="row">
                     <md-input-container flex class="md-block" md-no-float>
-                        <input name="firstname" ng-model="vm.form.firstname" placeholder="First Name"
+                        <input name="firstname" ng-model="vm.form.firstName" placeholder="First Name"
                                required>
                         <div ng-messages="registerForm.username.$error" role="alert">
                             <div ng-message="required">
@@ -29,7 +29,7 @@
                         </div>
                     </md-input-container>
                     <md-input-container flex class="md-block" md-no-float>
-                        <input name="lastname" ng-model="vm.form.lastname" placeholder="Last Name"
+                        <input name="lastname" ng-model="vm.form.lastName" placeholder="Last Name"
                                required>
                         <div ng-messages="registerForm.username.$error" role="alert">
                             <div ng-message="required">
@@ -58,7 +58,7 @@
                         </div>
                     </md-input-container>
                 </div>
-<!--
+
                 <div layout="row">
                     <md-input-container flex class="md-block" md-no-float>
                         <input name="locale" ng-model="vm.form.locale" placeholder="en"
@@ -79,7 +79,7 @@
                         </div>
                     </md-input-container>
                 </div>
--->
+
                 <md-button type="submit" class="md-raised md-accent submit-button" aria-label="CREATE MY ACCOUNT"
                            ng-disabled="registerForm.$invalid || registerForm.$pristine">
                     CREATE MY ACCOUNT
