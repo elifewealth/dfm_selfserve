@@ -26,7 +26,6 @@
                         .textContent('Account Created')              // The success part is not working as the response
                         .position('top right')                                  // is not in JSON format
                 );
-                $window.location.href = '/register2';
                 vm.clearForm();
             }, function (resp) {
                 var errors = '';
