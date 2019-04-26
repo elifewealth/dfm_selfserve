@@ -72,7 +72,7 @@
             return $http.post(BASE_URL + '/self/registration2',data);
         }
         this.register1 = function(data) {
-            return $http.post(BASE_URL + '/clients',data);
+            return $http.post(BASE_URL + '/clients/selfregister',data);
         }
 
         this.verifyUser = function(data){
